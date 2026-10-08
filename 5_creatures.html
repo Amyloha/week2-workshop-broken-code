@@ -29,6 +29,12 @@ function printArray() {
 }
 
 message = printArray();
+const creatures = {
+    fish: ["shark", "tuna", "salmon"]
+};
+
+let message = "";
+
 message += "<p>There are " + creatures.fish.length + " fish.</p>";
 
 document.getElementById("output").innerHTML = message;
